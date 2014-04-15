@@ -3,6 +3,6 @@ class UserMailer < ActionMailer::Base
 
   def welcome_message(user)
     @user = user
-    mail to: @user.email, subject: 'Welcome to Tweety',
+    mail to: @user.email, subject: 'Welcome to Tweety'
   end
 end
