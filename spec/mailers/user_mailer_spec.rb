@@ -1,5 +1,12 @@
 require "spec_helper"
 
 describe UserMailer do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before do
+    # @user = User.new({ username: })
+  end
+
+  it "sends an welcome email whenever a user is created" do
+    @user.welcome_message
+
+  end
 end
