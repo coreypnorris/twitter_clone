@@ -4,6 +4,7 @@
 
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: {role: "form"}) do |f| %>
       <%= devise_error_messages! %>
+
       <div class="form-group">
         <%= f.text_field :username, autofocus: true, id: :username, class: "form-control", placeholder: "Enter Username" %>
       </div>
