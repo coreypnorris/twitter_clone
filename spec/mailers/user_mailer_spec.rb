@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe UserMailer do
   # This test passes... but fails because stubs have no concept of deliver method
-  # it "sends an welcome email whenever a user is created" do
+  # it "runs the method that sends an email" do
   #   @user = FactoryGirl.build(:user)
   #   expect(UserMailer).to receive(:welcome_message).with(@user)
   #   @user.save
